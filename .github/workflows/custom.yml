@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      name: Printing
-      run: |
-        echo "Hello World!"
-        echo "Another Hello World!"
+      - name: Printing
+        run: |
+          echo "Hello World!"
+          echo "Another Hello World!"
