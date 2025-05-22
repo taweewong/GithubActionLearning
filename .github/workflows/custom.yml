@@ -1,0 +1,15 @@
+name: Custom workflow
+
+on:
+  # Allow you to run workflow manually
+  workflow_dispatch:
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Printing
+        run: |
+          echo "Hello World!"
+          echo "Another Hello World!"
